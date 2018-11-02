@@ -1,0 +1,29 @@
+{
+  "name": "send-email-mailjet",
+  "version": "1.0.0",
+  "description": "NodeApp that listen to a Redis and send email with Mailjet API",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "npm run lint && mocha",
+    "start": "node src/server.js",
+    "lint": "eslint ."
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^6.1.0",
+    "node-mailjet": "^3.3.1",
+    "rabbit.js": "^0.4.4"
+  },
+  "devDependencies": {
+    "eslint": "^5.8.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-mocha": "^5.2.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "mocha": "^5.2.0"
+  }
+}
